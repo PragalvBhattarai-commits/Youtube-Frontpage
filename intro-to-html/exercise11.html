@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <title>Facebook Feature Clone</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+      .super-container{
+        width: 30%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+      .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        border-width: 2px;
+        border-style: solid;
+        border-color: black;
+        vertical-align: middle;
+      }
+
+      .thumbnail{
+        width: 80%;
+      }
+      .pfp{
+        width: 80%;
+        border-radius: 20px;
+      }
+      .pfp-mutual-grid{
+        display: grid;
+        grid-template-columns: 50px 200px;
+        align-items: center;
+      }
+      .add-friend{
+        margin-top: 5%;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="super-container">
+      <div class="container">
+        <div class="thumbnail-row"> 
+          <img class="thumbnail" src="cat.png">
+        </div>
+        
+        <div class="profile-info">
+          <p class="name">Oliver</p>
+          <div class="pfp-mutual-grid">
+            <div>
+              <img class="pfp" src="cat.png">
+            </div>
+            <div> 3 mutual friends</div>
+          </div>
+          <div>
+            <button class="add-friend">Add Friend</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="thumbnail-row"> 
+          <img class="thumbnail" src="cat.png">
+        </div>
+        
+        <div class="profile-info">
+          <p class="name">Oliver</p>
+          <div class="pfp-mutual-grid">
+            <div>
+              <img class="pfp" src="cat.png">
+            </div>
+            <div> 3 mutual friends</div>
+          </div>
+          <div>
+            <button class="add-friend">Add Friend</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="thumbnail-row"> 
+          <img class="thumbnail" src="cat.png">
+        </div>
+        
+        <div class="profile-info">
+          <p class="name">Oliver</p>
+          <div class="pfp-mutual-grid">
+            <div>
+              <img class="pfp" src="cat.png">
+            </div>
+            <div> 3 mutual friends</div>
+          </div>
+          <div>
+            <button class="add-friend">Add Friend</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

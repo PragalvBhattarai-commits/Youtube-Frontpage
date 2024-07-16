@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nested Flexbox</title>
+    <style>
+      .super-container{
+        display: flex;
+        flex-direction: row;
+        height: 70px;
+      }
+      .item1{
+        background-color: lightblue;
+        width: 100px;
+      }
+      .item1-text{
+        display: flex;
+        flex-direction: rows;
+        justify-content: center;
+        
+      }
+      .text{
+        color: white;
+        font-size: 10px;
+        background-color: black;
+      }
+      .item2{
+        background-color: lightpink;
+        width: 200px;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="super-container">
+      <div class="item1">
+        <div class="item1-text">
+          <p class="text">item1</p>
+        </div>
+      </div>
+      <div class="item2"></div>
+    </div>
+  </body>
+</html>

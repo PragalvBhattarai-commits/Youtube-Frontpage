@@ -1,0 +1,17 @@
+p {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+
+}
+.model3 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+.order {
+  font-size: 20px;
+  text-align: center;
+}
+.touch {
+  text-decoration: underline;
+}
